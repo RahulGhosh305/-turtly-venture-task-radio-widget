@@ -1,12 +1,16 @@
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
+import RadioScreen from "./Screens/RadioScreen";
+
+const appStyle = {
+  backgroundColor: '#20202b',
+  height: '100vh',
+  paddingTop: '20px'
+}
 
 function App() {
   return (
-    <>
-      <Header />
-      <Footer />
-    </>
+    <div style={appStyle}>
+      <RadioScreen />
+    </div>
   );
 }
 
