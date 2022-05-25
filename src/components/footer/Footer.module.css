@@ -15,9 +15,12 @@
   padding: 20px 0px;
   min-height: 110px;
 }
+.contents p {
+  margin-bottom: 0;
+  color: #edad61;
+  font-weight: 700;
+}
 .title {
-  margin-top: 5px;
   color: #a3acbe;
   text-align: center;
-  padding: 20px 0px;
 }

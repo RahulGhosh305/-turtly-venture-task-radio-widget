@@ -10,6 +10,7 @@ const Footer = () => {
                     <div className="col-sm-4">
                         <div className={styles.footerWrapper}>
                             <div className={styles.contents}>
+                                <p>CURRENTLY PLAYING</p>
                                 <h3 className={styles.title}>Dribble FM</h3>
                             </div>
                         </div>
